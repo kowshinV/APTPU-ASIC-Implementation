@@ -101,9 +101,7 @@ Compared with the reference architecture:
 
 The RTL design of the APTPU was functionally verified using **Cadence SimVision**. The simulation validates the controller FSM, IFMAP and Weight loading, systolic array operation, and OFMAP generation.
 
-<p align="center">
-  <img src="waveform.png" width="95%">
-</p>
+Click here to [View Waveform](waveform.png)
 
 ---
 
