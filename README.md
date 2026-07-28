@@ -51,7 +51,7 @@ The implementation is based on the architecture proposed in the referenced IEEE 
 
 ## 🧩 Final Tapeout Layout
 
-➡️ **[View Final Tapeout Layout](Images/Final_Tapeout.png)**
+➡️ **[View Final Tapeout Layout](final_layout.jpeg)**
 
 ---
 
