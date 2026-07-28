@@ -101,7 +101,7 @@ Compared with the reference architecture:
 
 The RTL design of the APTPU was functionally verified using **Cadence SimVision**. The simulation validates the controller FSM, IFMAP and Weight loading, systolic array operation, and OFMAP generation.
 
-Click here to [View Waveform](waveform.png)
+👉 Click here to [View Waveform](waveform.png)
 
 ---
 
@@ -109,9 +109,7 @@ Click here to [View Waveform](waveform.png)
 
 Logic synthesis was completed using **Cadence Genus**, converting the RTL into an optimized gate-level netlist while satisfying area and timing constraints.
 
-<p align="center">
-  <img src="Images/Synthesis.png" width="95%">
-</p>
+👉 Click here to [View Waveform](waveform.png)
 
 ---
 
@@ -119,9 +117,7 @@ Logic synthesis was completed using **Cadence Genus**, converting the RTL into a
 
 The synthesized netlist was verified against the RTL using **Cadence Conformal LEC**, ensuring complete functional equivalence.
 
-<p align="center">
-  <img src="Images/LEC.png" width="95%">
-</p>
+👉 Click here to [View Waveform](waveform.png)
 
 ---
 
@@ -139,9 +135,7 @@ The floorplan defines the chip boundary, core area, pad ring, and placement regi
 
 Power rings and power stripes were inserted to provide stable power distribution throughout the chip.
 
-<p align="center">
-  <img src="Images/PowerPlanning.png" width="95%">
-</p>
+👉 Click here to [View Waveform](waveform.png)
 
 ---
 
@@ -159,9 +153,7 @@ Standard cells were placed and optimized to minimize congestion and improve timi
 
 Clock buffers and routing were inserted to minimize clock skew and insertion delay.
 
-<p align="center">
-  <img src="Images/CTS.png" width="95%">
-</p>
+👉 Click here to [View Waveform](waveform.png)
 
 ---
 
@@ -179,9 +171,7 @@ Global and detailed routing connected all signal paths while maintaining design 
 
 Post-route timing analysis confirms positive slack and successful timing closure.
 
-<p align="center">
-  <img src="Images/Timing.png" width="95%">
-</p>
+👉 Click here to [View Waveform](waveform.png)
 
 ---
 
@@ -189,9 +179,7 @@ Post-route timing analysis confirms positive slack and successful timing closure
 
 The final GDSII layout includes the I/O pad ring, power network, routing layers, and optimized standard cell placement, making the design fabrication-ready.
 
-<p align="center">
-  <img src="Images/Tapeout.png" width="95%">
-</p>
+👉 Click here to [View Waveform](waveform.png)
 
 ---
 
