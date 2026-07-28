@@ -240,28 +240,6 @@ The final GDSII layout includes the I/O pad ring, power network, routing layers,
 
 ---
 
-# 📁 Repository Structure
-
-```text
-📦 APTPU-ASIC-Implementation
-│
-├── 📄 Project_Report.pdf
-├── 📄 README.md
-│
-└── 📂 Images
-    ├── Architecture.png
-    ├── Simulation.png
-    ├── Synthesis.png
-    ├── Floorplan.png
-    ├── Placement.png
-    ├── CTS.png
-    ├── Routing.png
-    ├── GDSII.png
-    └── Final_Tapeout.png
-```
-
----
-
 # 📌 Repository Note
 
 This repository showcases the ASIC implementation of an Approximate Tensor Processing Unit (APTPU).
@@ -269,12 +247,6 @@ This repository showcases the ASIC implementation of an Approximate Tensor Proce
 The project focuses on the complete RTL-to-GDSII implementation flow and demonstrates practical VLSI physical design methodology using Cadence and Synopsys EDA tools.
 
 **RTL source code is intentionally not included in this repository.**
-
----
-
-# 🙏 Acknowledgement
-
-The architecture presented in this project is based on the referenced IEEE publication. The implementation includes architectural optimizations and ASIC implementation performed as part of this project for educational and learning purposes.
 
 ---
 
