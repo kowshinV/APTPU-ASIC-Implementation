@@ -6,7 +6,6 @@
 ![ASIC](https://img.shields.io/badge/ASIC-Implementation-blue?style=for-the-badge)
 ![Verilog](https://img.shields.io/badge/Verilog-HDL-success?style=for-the-badge)
 ![Cadence](https://img.shields.io/badge/Cadence-EDA-red?style=for-the-badge)
-![Synopsys](https://img.shields.io/badge/Synopsys-SpyGlass-orange?style=for-the-badge)
 ![Technology](https://img.shields.io/badge/Technology-180nm-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Tapeout_Ready-brightgreen?style=for-the-badge)
 
