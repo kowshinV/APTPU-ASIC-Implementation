@@ -39,7 +39,7 @@ The implementation is based on the architecture proposed in the referenced IEEE 
 
 ## 📘 Project Report
 
-➡️ **[View Complete Project Report](Project_Report.pdf)**
+➡️ **[View Complete Project Report](APTPU_REPORT2_p.pdf)**
 
 ---
 
