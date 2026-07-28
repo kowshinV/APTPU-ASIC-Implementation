@@ -35,23 +35,15 @@ The implementation is based on the architecture proposed in the referenced IEEE 
 
 ---
 
+---
+
 # 📂 Quick Navigation
 
-## 📘 Project Report
-
-➡️ **[View Complete Project Report](APTPU_REPORT2_p.pdf)**
-
----
-
-## 📝 Project Description
-
-➡️ **[Read Project Description](Project_Report.pdf)**
-
----
-
-## 🧩 Final Tapeout Layout
-
-➡️ **[View Final Tapeout Layout](final_layout.jpeg)**
+| 📄 Resource | 📋 Description | 🔗 Access |
+|:------------|:---------------|:---------:|
+| 📘 **Project Report** | Complete project report with architecture, implementation flow, synthesis, physical design, verification, and results. | **[View Report](Project_Report.pdf)** |
+| 📝 **Project Description** | Overview of the Approximate Tensor Processing Unit (APTPU), design methodology, architecture, ASIC implementation flow, and key project highlights. | **[Read Description](Project_Report.pdf)** |
+| 🧩 **Final Tapeout Layout** | Final GDSII tapeout layout showing pad ring, core area, routing, and physical implementation of the ASIC. | **[View Layout](Images/Final_Tapeout.png)** |
 
 ---
 
