@@ -1,67 +1,108 @@
-# 🚀 Approximate Tensor Processing Unit (APTPU) - ASIC Implementation
+# 🚀 Approximate Tensor Processing Unit (APTPU)
+### ASIC RTL-to-GDSII Implementation for Energy-Efficient AI Hardware Acceleration
 
-> **RTL-to-GDSII ASIC Implementation of an Approximate Computing Based Tensor Processing Unit (APTPU) for Energy-Efficient AI Hardware Acceleration**
+<p align="center">
 
----
+![ASIC](https://img.shields.io/badge/ASIC-Implementation-blue?style=for-the-badge)
+![Verilog](https://img.shields.io/badge/Verilog-HDL-success?style=for-the-badge)
+![Cadence](https://img.shields.io/badge/Cadence-EDA-red?style=for-the-badge)
+![Synopsys](https://img.shields.io/badge/Synopsys-SpyGlass-orange?style=for-the-badge)
+![Technology](https://img.shields.io/badge/Technology-180nm-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Tapeout_Ready-brightgreen?style=for-the-badge)
 
-## 📖 Overview
-
-This repository presents the complete ASIC implementation of an **Approximate Tensor Processing Unit (APTPU)** developed as part of an advanced VLSI design project.
-
-The implementation is based on the architecture proposed in the referenced IEEE publication and includes several architectural optimizations for ASIC implementation.
-
-### Project Modifications
-
-- ✅ Reduced Systolic Array Size: **28 × 28 → 12 × 12**
-- ✅ Reduced Total I/O Pins: **110 → 62**
-- ✅ Optimized ASIC Architecture
-- ✅ Completed the complete ASIC implementation within **10 Days**
+</p>
 
 ---
 
-# 📂 Quick Access
+# 📌 About the Project
 
-| 📄 Document | 🔗 Link |
-|------------|---------|
-| 📘 View Complete Project Report | **[Click Here](Project_Report.pdf)** |
-| 📝 View Project Description | **[Click Here](Project_Report.pdf)** |
-| 🧩 View Final Tapeout Layout | **[Click Here](Images/Final_Tapeout.png)** |
+The **Approximate Tensor Processing Unit (APTPU)** is an ASIC-based AI accelerator designed to efficiently execute tensor and matrix computations using **Approximate Computing** techniques. The objective of this project is to achieve high computational throughput while reducing silicon area, power consumption, and hardware complexity.
 
----
+This project demonstrates the complete **RTL-to-GDSII ASIC Implementation Flow** using industrial EDA tools.
 
-## 🏗️ Project Highlights
-
-- Approximate Tensor Processing Unit (APTPU)
-- Verilog HDL RTL Design
-- Functional Verification
-- SpyGlass Lint, CDC & RDC Verification
-- Logic Synthesis
-- Logical Equivalence Check (LEC)
-- Floorplanning
-- Power Planning
-- Placement
-- Clock Tree Synthesis (CTS)
-- Routing
-- Physical Verification
-- Final Tapeout (GDSII)
+The implementation is based on the architecture proposed in the referenced IEEE publication and includes several architectural optimizations performed during this project.
 
 ---
 
-## ⚙️ Design Specifications
+# ✨ Project Objectives
+
+- Design an ASIC-based AI Hardware Accelerator
+- Reduce Hardware Complexity
+- Improve Throughput
+- Minimize Power Consumption
+- Complete Full RTL-to-GDSII Flow
+- Gain Hands-on Experience with Industrial EDA Tools
+
+---
+
+# 📂 Quick Navigation
+
+## 📘 Project Report
+
+➡️ **[View Complete Project Report](Project_Report.pdf)**
+
+---
+
+## 📝 Project Description
+
+➡️ **[Read Project Description](Project_Report.pdf)**
+
+---
+
+## 🧩 Final Tapeout Layout
+
+➡️ **[View Final Tapeout Layout](Images/Final_Tapeout.png)**
+
+---
+
+# 🏗️ Architecture Highlights
+
+✅ Approximate Computing Architecture
+
+✅ 12 × 12 Approximate Processing Element (APE) Systolic Array
+
+✅ IFMAP FIFO
+
+✅ Weight FIFO
+
+✅ Controller FSM
+
+✅ Output Feature Map (OFMAP) Interface
+
+✅ Optimized ASIC Datapath
+
+---
+
+# 📈 Design Improvements
+
+Compared with the reference architecture:
+
+| Feature | Original | Implemented |
+|----------|-----------|-------------|
+| Systolic Array | 12 × 12 |
+| Total I/O Pins | 41 | 24 |
+| ASIC Optimization | Basic | Optimized |
+| Implementation | Reference | Complete RTL → GDSII |
+
+---
+
+# ⚙️ ASIC Design Specifications
 
 | Parameter | Value |
-|-----------|-------|
+|------------|--------|
 | Technology | 180 nm CMOS |
-| Chip Size | **5 mm × 5 mm** |
-| Core Area | **≈ 9,000,000 μm²** |
-| Standard Cell Count | **≈ 300,000** |
-| Total I/O Pins | **62** |
-| Systolic Array | **12 × 12 Approximate Processing Elements** |
-| RTL Language | Verilog HDL |
+| Chip Size | 3 mm × 3 mm |
+| Core Area | 1,707,278 |
+| Cell Count | 278356 |
+| Total I/O Pins | 62 |
+| Timing Status | PASS |
+| Routing Overflow | 0% |
+| WNS | +8.418 ns |
+| TNS | 0 ns |
 
 ---
 
-## 🔄 Complete ASIC Design Flow
+# 🔄 Complete ASIC Design Flow
 
 ```text
 RTL Design
@@ -76,7 +117,7 @@ SpyGlass (Lint • CDC • RDC)
 Logic Synthesis
       │
       ▼
-Logical Equivalence Check (LEC)
+Logical Equivalence Check
       │
       ▼
 Floorplanning
@@ -88,7 +129,7 @@ Power Planning
 Placement
       │
       ▼
-Clock Tree Synthesis (CTS)
+Clock Tree Synthesis
       │
       ▼
 Routing
@@ -97,12 +138,12 @@ Routing
 Physical Verification
       │
       ▼
-Final Tapeout (GDSII)
+Tapeout (GDSII)
 ```
 
 ---
 
-## 🛠️ EDA Tools Used
+# 🛠️ EDA Tools
 
 - Verilog HDL
 - Cadence SimVision
@@ -114,65 +155,78 @@ Final Tapeout (GDSII)
 
 ---
 
-## 📁 Repository Structure
+# 🎯 Applications
+
+- Artificial Intelligence Inference
+- Edge AI Computing
+- Embedded AI Systems
+- Computer Vision
+- Smart Surveillance
+- Robotics
+- Autonomous Systems
+- Medical Image Analysis
+- IoT Intelligence
+
+---
+
+# 📁 Repository Structure
 
 ```text
-APTPU-ASIC-Implementation/
+📦 APTPU-ASIC-Implementation
 │
-├── README.md
-├── Project_Report.pdf
+├── 📄 Project_Report.pdf
+├── 📄 README.md
 │
-└── Images/
-      ├── Architecture.png
-      ├── Simulation.png
-      ├── Synthesis.png
-      ├── Floorplan.png
-      ├── Placement.png
-      ├── CTS.png
-      ├── Routing.png
-      ├── GDS_Layout.png
-      └── Final_Tapeout.png
+└── 📂 Images
+    ├── Architecture.png
+    ├── Simulation.png
+    ├── Synthesis.png
+    ├── Floorplan.png
+    ├── Placement.png
+    ├── CTS.png
+    ├── Routing.png
+    ├── GDSII.png
+    └── Final_Tapeout.png
 ```
 
 ---
 
-## 🎯 Applications
+# 📌 Repository Note
 
-- Artificial Intelligence (AI) Inference
-- Edge AI Devices
-- Computer Vision
-- Embedded AI Systems
-- Robotics & Autonomous Systems
-- Medical Image Processing
-- Smart Surveillance
-- IoT-Based Intelligent Systems
+This repository showcases the ASIC implementation of an Approximate Tensor Processing Unit (APTPU).
+
+The project focuses on the complete RTL-to-GDSII implementation flow and demonstrates practical VLSI physical design methodology using Cadence and Synopsys EDA tools.
+
+**RTL source code is intentionally not included in this repository.**
 
 ---
 
-## 📌 Repository Note
+# 🙏 Acknowledgement
 
-> This repository contains the **project documentation, implementation results, and ASIC design flow** of the Approximate Tensor Processing Unit (APTPU).
-
-> **The RTL source code is intentionally not included.**
-
-The architecture is based on the referenced IEEE publication and includes architectural optimizations performed as part of this project.
+The architecture presented in this project is based on the referenced IEEE publication. The implementation includes architectural optimizations and ASIC implementation performed as part of this project for educational and learning purposes.
 
 ---
 
-## 📚 Reference
+# ⭐ Support
 
-**IEEE Publication**
+If you found this project helpful or interesting,
 
-Approximate Computing Based Tensor Processing Unit (APTPU)
+⭐ **Please consider giving this repository a Star!**
 
-*(Please add the complete IEEE citation or DOI here.)*
+It motivates future VLSI and ASIC open-source documentation.
 
 ---
 
-## ⭐ Support
+# 👨‍💻 Author
 
-If you found this project useful or interesting, consider giving this repository a **⭐ Star**.
+## **Kowshin**
 
-It helps others discover the project and motivates future work.
+**Electronics and Communication Engineering (ECE)**
+
+**Aspiring VLSI Design Engineer**
+
+📍 Tamil Nadu, India
+
+*"Passionate about Digital Design, RTL Development, ASIC Physical Design, and AI Hardware Accelerators."*
 
 ---
