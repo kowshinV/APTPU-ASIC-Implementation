@@ -125,9 +125,7 @@ The synthesized netlist was verified against the RTL using **Cadence Conformal L
 
 The floorplan defines the chip boundary, core area, pad ring, and placement region before physical implementation.
 
-<p align="center">
-  <img src="Images/Floorplan.png" width="95%">
-</p>
+👉 Click here to [View Waveform](waveform.png)
 
 ---
 
@@ -143,9 +141,7 @@ Power rings and power stripes were inserted to provide stable power distribution
 
 Standard cells were placed and optimized to minimize congestion and improve timing performance.
 
-<p align="center">
-  <img src="Images/Placement.png" width="95%">
-</p>
+👉 Click here to [View Waveform](waveform.png)
 
 ---
 
@@ -161,9 +157,7 @@ Clock buffers and routing were inserted to minimize clock skew and insertion del
 
 Global and detailed routing connected all signal paths while maintaining design rule compliance and timing closure.
 
-<p align="center">
-  <img src="Images/Routing.png" width="95%">
-</p>
+👉 Click here to [View Waveform](waveform.png)
 
 ---
 
