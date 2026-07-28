@@ -107,22 +107,6 @@ The RTL design of the APTPU was functionally verified using **Cadence SimVision*
 
 ---
 
-🔍 SpyGlass Verification
-
-The RTL was analyzed using **Synopsys SpyGlass** to identify coding violations and ensure robust clock/reset domain behavior.
-
-✔️ Lint Verification
-
-✔️ Clock Domain Crossing (CDC)
-
-✔️ Reset Domain Crossing (RDC)
-
-<p align="center">
-  <img src="Images/SpyGlass.png" width="95%">
-</p>
-
----
-
 ⚙️ Logic Synthesis
 
 Logic synthesis was completed using **Cadence Genus**, converting the RTL into an optimized gate-level netlist while satisfying area and timing constraints.
