@@ -98,7 +98,7 @@ Compared with the reference architecture:
 
 ---
 
-# 🧪 RTL Functional Verification
+ RTL Functional Verification
 
 The RTL design of the APTPU was functionally verified using **Cadence SimVision**. The simulation validates the controller FSM, IFMAP and Weight loading, systolic array operation, and OFMAP generation.
 
@@ -108,7 +108,7 @@ The RTL design of the APTPU was functionally verified using **Cadence SimVision*
 
 ---
 
-# 🔍 SpyGlass Verification
+🔍 SpyGlass Verification
 
 The RTL was analyzed using **Synopsys SpyGlass** to identify coding violations and ensure robust clock/reset domain behavior.
 
@@ -124,7 +124,7 @@ The RTL was analyzed using **Synopsys SpyGlass** to identify coding violations a
 
 ---
 
-# ⚙️ Logic Synthesis
+⚙️ Logic Synthesis
 
 Logic synthesis was completed using **Cadence Genus**, converting the RTL into an optimized gate-level netlist while satisfying area and timing constraints.
 
@@ -134,7 +134,7 @@ Logic synthesis was completed using **Cadence Genus**, converting the RTL into a
 
 ---
 
-# ✅ Logical Equivalence Check (LEC)
+✅ Logical Equivalence Check (LEC)
 
 The synthesized netlist was verified against the RTL using **Cadence Conformal LEC**, ensuring complete functional equivalence.
 
@@ -144,7 +144,7 @@ The synthesized netlist was verified against the RTL using **Cadence Conformal L
 
 ---
 
-# 🏢 Floorplanning
+ 🏢 Floorplanning
 
 The floorplan defines the chip boundary, core area, pad ring, and placement region before physical implementation.
 
@@ -154,7 +154,7 @@ The floorplan defines the chip boundary, core area, pad ring, and placement regi
 
 ---
 
-# ⚡ Power Planning
+⚡ Power Planning
 
 Power rings and power stripes were inserted to provide stable power distribution throughout the chip.
 
@@ -164,7 +164,7 @@ Power rings and power stripes were inserted to provide stable power distribution
 
 ---
 
-# 📍 Standard Cell Placement
+📍 Standard Cell Placement
 
 Standard cells were placed and optimized to minimize congestion and improve timing performance.
 
@@ -174,7 +174,7 @@ Standard cells were placed and optimized to minimize congestion and improve timi
 
 ---
 
-# 🌳 Clock Tree Synthesis (CTS)
+🌳 Clock Tree Synthesis (CTS)
 
 Clock buffers and routing were inserted to minimize clock skew and insertion delay.
 
@@ -184,7 +184,7 @@ Clock buffers and routing were inserted to minimize clock skew and insertion del
 
 ---
 
-# 🛣️ Routing
+🛣️ Routing
 
 Global and detailed routing connected all signal paths while maintaining design rule compliance and timing closure.
 
@@ -194,7 +194,7 @@ Global and detailed routing connected all signal paths while maintaining design 
 
 ---
 
-# 📈 Timing Analysis
+📈 Timing Analysis
 
 Post-route timing analysis confirms positive slack and successful timing closure.
 
@@ -204,15 +204,13 @@ Post-route timing analysis confirms positive slack and successful timing closure
 
 ---
 
-# 💎 Final Tapeout Layout
+💎 Final Tapeout Layout
 
 The final GDSII layout includes the I/O pad ring, power network, routing layers, and optimized standard cell placement, making the design fabrication-ready.
 
 <p align="center">
   <img src="Images/Tapeout.png" width="95%">
 </p>
-
----
 
 ---
 
