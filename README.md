@@ -109,7 +109,7 @@ The RTL design of the APTPU was functionally verified using **Cadence SimVision*
 
 Logic synthesis was completed using **Cadence Genus**, converting the RTL into an optimized gate-level netlist while satisfying area and timing constraints.
 
-👉 Click here to [View Synthetic report](waveform.png)
+👉 Click here to [View Synthetic report](syntheticrpt.png)
 
 ---
 
@@ -117,7 +117,7 @@ Logic synthesis was completed using **Cadence Genus**, converting the RTL into a
 
 The synthesized netlist was verified against the RTL using **Cadence Conformal LEC**, ensuring complete functional equivalence.
 
-👉 Click here to [View Lec report](waveform.png)
+👉 Click here to [View Lec report](lec.png)
 
 ---
 
@@ -125,7 +125,7 @@ The synthesized netlist was verified against the RTL using **Cadence Conformal L
 
 The floorplan defines the chip boundary, core area, pad ring, and placement region before physical implementation.
 
-👉 Click here to [View Floorplan layout](waveform.png)
+👉 Click here to [View Floorplan layout](fb.png)
 
 ---
 
@@ -133,7 +133,7 @@ The floorplan defines the chip boundary, core area, pad ring, and placement regi
 
 Power rings and power stripes were inserted to provide stable power distribution throughout the chip.
 
-👉 Click here to [View Powerplan Layout](waveform.png)
+👉 Click here to [View Powerplan Layout](pp.png)
 
 ---
 
@@ -141,7 +141,7 @@ Power rings and power stripes were inserted to provide stable power distribution
 
 Standard cells were placed and optimized to minimize congestion and improve timing performance.
 
-👉 Click here to [View Placement layout](waveform.png)
+👉 Click here to [View Placement layout](placement.png)
 
 ---
 
@@ -149,7 +149,7 @@ Standard cells were placed and optimized to minimize congestion and improve timi
 
 Clock buffers and routing were inserted to minimize clock skew and insertion delay.
 
-👉 Click here to [View CTS layout](waveform.png)
+👉 Click here to [View CTS layout](cts.png)
 
 ---
 
@@ -157,7 +157,7 @@ Clock buffers and routing were inserted to minimize clock skew and insertion del
 
 Global and detailed routing connected all signal paths while maintaining design rule compliance and timing closure.
 
-👉 Click here to [View Routing layout](waveform.png)
+👉 Click here to [View Routing layout](route.png)
 
 ---
 
@@ -173,7 +173,7 @@ Post-route timing analysis confirms positive slack and successful timing closure
 
 The final GDSII layout includes the I/O pad ring, power network, routing layers, and optimized standard cell placement, making the design fabrication-ready.
 
-👉 Click here to [View Tapeout layout](waveform.png)
+👉 Click here to [View Tapeout layout](tp.png)
 
 ---
 
