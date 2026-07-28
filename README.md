@@ -79,7 +79,7 @@ Compared with the reference architecture:
 
 | Feature | Original | Implemented |
 |----------|-----------|-------------|
-| Systolic Array | 12 × 12 |
+| Systolic Array | 28 × 28 | 12 x 12 |
 | Total I/O Pins | 41 | 24 |
 | ASIC Optimization | Basic | Optimized |
 | Implementation | Reference | Complete RTL → GDSII |
