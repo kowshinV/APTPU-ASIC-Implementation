@@ -125,7 +125,7 @@ The synthesized netlist was verified against the RTL using **Cadence Conformal L
 
 The floorplan defines the chip boundary, core area, pad ring, and placement region before physical implementation.
 
-👉 Click here to [View Floorplan layout](fb.png)
+👉 Click here to [View Floorplan layout](fp.png)
 
 ---
 
