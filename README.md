@@ -1,14 +1,14 @@
-🚀 Approximate Tensor Processing Unit (APTPU) – ASIC Implementation
-
+# 🚀 Approximate Tensor Processing Unit (APTPU) – ASIC Implementation
+---
 RTL-to-GDSII Implementation of an Approximate Computing Based Tensor Processing Unit (APTPU) for Energy-Efficient AI Hardware Acceleration
-
-📖 Project Overview
+---
+## 📖 Project Overview
 
 This repository presents the complete ASIC implementation of an Approximate Tensor Processing Unit (APTPU) developed as part of an advanced VLSI design project.
 
 The design is based on the APTPU architecture proposed in the referenced IEEE publication and has been modified and optimized for ASIC implementation. The project demonstrates the complete RTL → Verification → Synthesis → Physical Design → Tapeout flow using industry-standard Cadence and Synopsys EDA tools.
-
-Major architectural optimizations include:
+---
+## Major architectural optimizations include:
 
 ✅ Reduced Systolic Array from 28 × 28 to 12 × 12
 ✅ Reduced I/O Pins from 110 to 62
