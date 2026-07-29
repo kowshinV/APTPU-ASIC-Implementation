@@ -84,7 +84,7 @@ Compared with the reference architecture:
 | Chip Size | 3 mm × 3 mm |
 | Core Area | 1,707,278 |
 | Cell Count | 278356 |
-| Total I/O Pins | 62 |
+| Total I/O Pins | 41 |
 | Timing Status | PASS |
 | Routing Overflow | 0% |
 | WNS | +8.418 ns |
