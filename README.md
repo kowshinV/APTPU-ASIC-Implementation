@@ -3,13 +3,11 @@
 
 <p align="center">
 
-[![ASIC](https://img.shields.io/badge/ASIC-Implementation-blue?style=for-the-badge)](#about-the-project)
-
-[![Verilog](https://img.shields.io/badge/Verilog-HDL-success?style=for-the-badge)](#architecture)
-
-[![Cadence](https://img.shields.io/badge/Cadence-EDA-red?style=for-the-badge)](#eda-tools)
-
-[![Tapeout](https://img.shields.io/badge/Status-Tapeout_Ready-brightgreen?style=for-the-badge)](#final-tapeout-layout)
+![ASIC](https://img.shields.io/badge/ASIC-Implementation-blue?style=for-the-badge)
+![Verilog](https://img.shields.io/badge/Verilog-HDL-success?style=for-the-badge)
+![Cadence](https://img.shields.io/badge/Cadence-EDA-red?style=for-the-badge)
+![Technology](https://img.shields.io/badge/Technology-180nm-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Tapeout_Ready-brightgreen?style=for-the-badge)
 </p>
 
 ---
