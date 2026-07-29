@@ -165,7 +165,7 @@ Global and detailed routing connected all signal paths while maintaining design 
 
 Post-route timing analysis confirms positive slack and successful timing closure.
 
-👉 Click here to [View Timing report](waveform.png)
+👉 Click here to [View Timing report](timing.png)
 
 ---
 
