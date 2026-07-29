@@ -97,7 +97,7 @@ Compared with the reference architecture:
 
 ---
 
- RTL Functional Verification
+⭐ RTL Functional Verification
 
 The RTL design of the APTPU was functionally verified using **Cadence SimVision**. The simulation validates the controller FSM, IFMAP and Weight loading, systolic array operation, and OFMAP generation.
 
