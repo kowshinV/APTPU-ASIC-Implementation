@@ -18,8 +18,6 @@ The **Approximate Tensor Processing Unit (APTPU)** is an ASIC-based AI accelerat
 
 This project demonstrates the complete **RTL-to-GDSII ASIC Implementation Flow** using industrial EDA tools.
 
-The implementation is based on the architecture proposed in the referenced IEEE publication and includes several architectural optimizations performed during this project.
-
 ---
 
 # ✨ Project Objectives
